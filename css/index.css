@@ -1,0 +1,47 @@
+
+.transition {
+    width: 100%;
+    height: 400px;
+    padding: 100px;
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    background-color: mediumpurple;
+}
+
+.avatar-column {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    color: rebeccapurple;
+    text-align: center;
+}
+
+.first-line {
+    font-size: 40px;
+}
+
+.second-line {
+    font-size: 20px;
+}
+
+.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 400px) {
+    .transition {
+        width: 100%;
+        height: 800px;
+        padding: 30px;
+        margin: 0;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        background-color: mediumpurple;
+
+    }
+}

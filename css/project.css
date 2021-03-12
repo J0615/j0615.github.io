@@ -3,8 +3,8 @@
     display: grid;
     grid-template-columns: auto auto;
     grid-auto-rows: auto auto;
-    grid-row-gap: 40px;
-    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    grid-column-gap: 40px;
 }
 
 
@@ -36,6 +36,21 @@
     grid-column: 2/2;
     text-align: center;
 
+}
+
+.fifth {
+    grid-column: 3/0;
+    text-align: center;
+}
+
+.sixth {
+    float: left;
+    background-color: mediumpurple;
+    color: white;
+    font-family: "Helvetica Neue", serif;
+    margin: auto;
+    padding: 30px;
+    border-radius: 50px;
 }
 
 @media screen and (max-width: 400px) {
@@ -75,5 +90,19 @@
         grid-column: 1/1;
         text-align: center;
 
+    }
+
+    .fifth {
+        background-color: mediumpurple;
+        color: white;
+        font-family: "Helvetica Neue", serif;
+        padding: 30px;
+        float: left;
+        border-radius: 50px;
+    }
+
+    .sixth {
+        grid-column: 1/1;
+        text-align: center;
     }
 }

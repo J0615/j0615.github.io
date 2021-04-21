@@ -53,6 +53,23 @@
     border-radius: 50px;
 }
 
+.seventh {
+    float: left;
+    background-color: mediumpurple;
+    color: white;
+    font-family: "Helvetica Neue", serif;
+    margin: auto;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.eighth {
+    grid-column: 4/0;
+    text-align: center;
+}
+
+
+
 @media screen and (max-width: 400px) {
     .container {
         position: relative;
@@ -103,6 +120,20 @@
 
     .sixth {
         grid-column: 1/1;
+        text-align: center;
+    }
+
+    .seventh {
+        background-color: mediumpurple;
+        color: white;
+        font-family: "Helvetica Neue", serif;
+        padding: 30px;
+        float: left;
+        border-radius: 50px;
+    }
+
+    .eighth {
+        grid-column: 4/2;
         text-align: center;
     }
 }
